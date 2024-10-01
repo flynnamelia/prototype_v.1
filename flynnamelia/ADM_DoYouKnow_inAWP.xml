@@ -1,0 +1,37 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Do You Know</title>
+            <author>Alice Duer Miller</author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Read Books Limited</publisher>
+            <date>1915</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title>Are Women People?</title>
+               <author>Alice Duer Miller</author>
+               <publisher>Read Books Limited</publisher>
+               <date>1915</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <lg type="poem">
+            <head>Do You Know</head>
+            <l>That in 1869 Miss Jex-Blake and four other women entered for a medical degree at the University of Edinburgh?</l>
+            <l>That the president of the College of Physicians refused to give the women the prizes they had won?</l>
+            <l>That the undergraduates insulted any professor who allowed women to compete for prizes?</l>
+            <l>That the women were stoned in the streets, and finally excluded from the medical school?</l>
+            <l>That in 1877 the British Medical Association declared women ineligible for membership?</l>
+            <l>That in 1881 the International Medical Congress excluded women from all but its “social and ceremonial meetings”?</l>
+            <l>That the Obstetrical Society refused to allow a woman’s name to appear on the title page of a pamphlet which she had written with her husband?</l>
+            <l>That according to a recent dispatch from London, many hospitals, since the outbreak of hostilities, have asked women to become resident physicians, and public authorities are daily endeavoring to obtain women as assistant medical officers and as school doctors?</l>
+         </lg>
+      </body>
+   </text>
+</TEI>
