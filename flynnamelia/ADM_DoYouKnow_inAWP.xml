@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="undefined" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="undefined"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -18,17 +18,246 @@
             </bibl>
          </sourceDesc>
       </fileDesc>
-   </teiHeader>
+   <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
+{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#"
+	},
+	"@id": "https://raw.githubusercontent.com/flynnamelia/prototype_v.1/master/flynnamelia/ADM_DoYouKnow_inAWP.xml?person_annotation_20241001184200776",
+	"@type": "oa:Annotation",
+	"dcterms:created": "2024-10-01T22:42:00.776Z",
+	"dcterms:modified": "2024-10-01T22:42:00.776Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/flynnamelia",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": null,
+		"foaf:nick": "flynnamelia"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/flynnamelia/prototype_v.1/master/flynnamelia/ADM_DoYouKnow_inAWP.xml?person_annotation_20241001184200776#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/flynnamelia/prototype_v.1/master/flynnamelia/ADM_DoYouKnow_inAWP.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://cwrc-writer.cwrc.ca",
+			"@type": "as:Application",
+			"rdfs:label": "CWRC Writer",
+			"schema:softwareVersion": "8.2.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/flynnamelia/prototype_v.1/master/flynnamelia/ADM_DoYouKnow_inAWP.xml?person_annotation_20241001184200776#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/lg/l/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q452029",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://cwrc-writer.cwrc.ca",
+		"@type": "as:Application",
+		"rdfs:label": "CWRC Writer",
+		"schema:url": "https://cwrc-writer.cwrc.ca",
+		"schema:softwareVersion": "8.2.0"
+	},
+	"oa:hasCertainty": "cwrc:high"
+}
+]]></rdf:Description>
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
+{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#"
+	},
+	"@id": "https://raw.githubusercontent.com/flynnamelia/prototype_v.1/master/flynnamelia/ADM_DoYouKnow_inAWP.xml?org_annotation_20241001184241518",
+	"@type": "oa:Annotation",
+	"dcterms:created": "2024-10-01T22:42:41.518Z",
+	"dcterms:modified": "2024-10-01T22:42:41.518Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/flynnamelia",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": null,
+		"foaf:nick": "flynnamelia"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/flynnamelia/prototype_v.1/master/flynnamelia/ADM_DoYouKnow_inAWP.xml?org_annotation_20241001184241518#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/flynnamelia/prototype_v.1/master/flynnamelia/ADM_DoYouKnow_inAWP.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://cwrc-writer.cwrc.ca",
+			"@type": "as:Application",
+			"rdfs:label": "CWRC Writer",
+			"schema:softwareVersion": "8.2.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/flynnamelia/prototype_v.1/master/flynnamelia/ADM_DoYouKnow_inAWP.xml?org_annotation_20241001184241518#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/lg/l/orgName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "org:Organization",
+		"@id": "http://www.wikidata.org/entity/Q160302",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://cwrc-writer.cwrc.ca",
+		"@type": "as:Application",
+		"rdfs:label": "CWRC Writer",
+		"schema:url": "https://cwrc-writer.cwrc.ca",
+		"schema:softwareVersion": "8.2.0"
+	},
+	"oa:hasCertainty": "cwrc:high"
+}
+]]></rdf:Description>
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
+{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#"
+	},
+	"@id": "https://raw.githubusercontent.com/flynnamelia/prototype_v.1/master/flynnamelia/ADM_DoYouKnow_inAWP.xml?org_annotation_20241001184307168",
+	"@type": "oa:Annotation",
+	"dcterms:created": "2024-10-01T22:43:07.168Z",
+	"dcterms:modified": "2024-10-01T22:43:07.168Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/flynnamelia",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": null,
+		"foaf:nick": "flynnamelia"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/flynnamelia/prototype_v.1/master/flynnamelia/ADM_DoYouKnow_inAWP.xml?org_annotation_20241001184307168#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/flynnamelia/prototype_v.1/master/flynnamelia/ADM_DoYouKnow_inAWP.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://cwrc-writer.cwrc.ca",
+			"@type": "as:Application",
+			"rdfs:label": "CWRC Writer",
+			"schema:softwareVersion": "8.2.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/flynnamelia/prototype_v.1/master/flynnamelia/ADM_DoYouKnow_inAWP.xml?org_annotation_20241001184307168#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/lg/l[5]/orgName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "org:Organization",
+		"@id": "http://www.wikidata.org/entity/Q919715",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://cwrc-writer.cwrc.ca",
+		"@type": "as:Application",
+		"rdfs:label": "CWRC Writer",
+		"schema:url": "https://cwrc-writer.cwrc.ca",
+		"schema:softwareVersion": "8.2.0"
+	},
+	"oa:hasCertainty": "cwrc:high"
+}
+]]></rdf:Description></rdf:RDF></xenoData></teiHeader>
    <text>
       <body>
          <lg type="poem">
-            <head>Do You Know</head>
-            <l>That in 1869 Miss Jex-Blake and four other women entered for a medical degree at the University of Edinburgh?</l>
+            <head><title>Do You Know</title></head>
+            <l>That in 1869 <persName ref="http://www.wikidata.org/entity/Q452029" key="Sophia Jex-Blake" cert="high" type="real">Miss Jex-Blake</persName> and four other women entered for a medical degree at the <orgName ref="http://www.wikidata.org/entity/Q160302" key="University of Edinburgh" cert="high">University of Edinburgh</orgName>?</l>
             <l>That the president of the College of Physicians refused to give the women the prizes they had won?</l>
             <l>That the undergraduates insulted any professor who allowed women to compete for prizes?</l>
             <l>That the women were stoned in the streets, and finally excluded from the medical school?</l>
-            <l>That in 1877 the British Medical Association declared women ineligible for membership?</l>
-            <l>That in 1881 the International Medical Congress excluded women from all but its “social and ceremonial meetings”?</l>
+            <l>That in 1877 the <orgName ref="http://www.wikidata.org/entity/Q919715" key="British Medical Association" cert="high">British Medical Association</orgName> declared women ineligible for membership?</l>
+            <l>That in 1881 the International Medical Congress excluded women from all but its <quote>social and ceremonial meetings</quote>?</l>
             <l>That the Obstetrical Society refused to allow a woman’s name to appear on the title page of a pamphlet which she had written with her husband?</l>
             <l>That according to a recent dispatch from London, many hospitals, since the outbreak of hostilities, have asked women to become resident physicians, and public authorities are daily endeavoring to obtain women as assistant medical officers and as school doctors?</l>
          </lg>
